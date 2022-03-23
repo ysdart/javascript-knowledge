@@ -61,7 +61,7 @@ const { name, age } = myProfile1;
 console.log(`名前は${name}です。${age}歳です。`);
 
 //修正、準備-------------------------
-let index1 = 0;
+let index = 0;
 const vari0 = 0;
 vari1 = 1;
 vari2 = 2;
@@ -125,10 +125,11 @@ console.log(newarr1);
  * while文-------------------------
  */
 console.log("while文-------------------------");
-while (index1 < vari3) {
-  console.log(index1);
-  index1++;
+while (index < vari3) {
+  console.log(index);
+  index++;
 }
+index = 0;
 
 /**
  * function,アロー関数-------------------------
